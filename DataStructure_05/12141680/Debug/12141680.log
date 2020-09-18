@@ -1,0 +1,41 @@
+﻿빌드 시작: 2018-06-24 오후 11:37:41
+     1>2 노드의 "C:\Users\JH\Desktop\Visual\자료구조론\12141680\12141680\12141680.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\12141680.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 234Tree.cpp
+         234Tree.cpp
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(51): error C2039: 'element' : 'Node'의 멤버가 아닙니다.
+                 c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(5) : 'Node' 선언을 참조하십시오.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(56): error C2065: 'R' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(60): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(64): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(64): error C2227: '->element' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(64): error C2039: 'element' : 'Node'의 멤버가 아닙니다.
+                 c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(5) : 'Node' 선언을 참조하십시오.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(66): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(66): error C2227: '->left' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(68): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(68): error C2227: '->left' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(73): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(73): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(73): error C2227: '->left' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(78): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(78): error C2227: '->right' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(80): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(80): error C2227: '->right' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(86): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(86): error C2065: 'p' : 선언되지 않은 식별자입니다.
+     1>c:\users\jh\desktop\visual\자료구조론\12141680\12141680\234tree.cpp(86): error C2227: '->right' 왼쪽은 클래스/구조체/공용 구조체/제네릭 형식을 가리켜야 합니다.
+                 ''unknown-type'' 형식입니다.
+     1>"C:\Users\JH\Desktop\Visual\자료구조론\12141680\12141680\12141680.vcxproj" 프로젝트를 빌드했습니다(build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:01.05
