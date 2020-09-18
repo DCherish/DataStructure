@@ -44,5 +44,5 @@
 > > BST의 경우, insert 정삭 작동 여부 및 preorder, inorder, postorder 방문 순서를 출력  
 > > 2-3 Tree의 경우, split을 적용하여 insert 시, balance가 유지됨을 Tree로 출력  
 
-> <img src="/image/d2.png" width="450px" height="300px" alt="BlockDiagram"></img><br/>
+> <img src="/image/d6.png" width="450px" height="300px" alt="BlockDiagram"></img><br/>
 > > Binary Search Tree 출력
