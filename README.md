@@ -10,7 +10,7 @@
 > > 또 다시 이 자식 클래스를 상속받은 자식 클래스를 1개 이상 설계  
 > > overloading 메소드가 하나 이상 되도록 설계  
 > > 하나 이상의 virtual function, virtual destructor, 함수 template을 작성  
-> > polymorphism을 보여줄 수 있는 응용을 설계, 동적바인딩이 되는 예를 제시  
+> > polymorphism을 보여줄 수 있는 응용을 설계, 동적바인딩이 되는 예를 제시
 
 > <img src="/image/d1.png" width="450px" height="300px" alt="BlockDiagram"></img><br/>
 > > 클래스 다이어그램
