@@ -14,7 +14,7 @@
 ---
 
 # 🧐 [SNS 주소 관리 프로그램 (#A1)](https://github.com/DCherish/DataStructure/tree/master/DataStructure_01)  
-- 위 프로그램은 주소의 등록, 삭제, 검색 등의 기능을 갖음  
+- 위 프로그램은 주소의 등록, 삭제, 검색 등의 기능을 가짐  
 - 부모클래스를 설계하고 이를 상속받은 2개 이상의 자식클래스를 설계  
 - 또 다시 이 자식 클래스를 상속받은 자식 클래스를 1개 이상 설계  
 - overloading 메소드가 하나 이상 되도록 설계  
@@ -215,14 +215,14 @@ int main()
   DLLStack DS1;
   // 중략...
   for (i = 0; i < 14; i++)
-	{
-		cout << p1[i] << " ";
-		DS1.push(p1[i]);
-	}
+  {
+    cout << p1[i] << " ";
+    DS1.push(p1[i]);
+  }
 
-	cout << " : ";
-	DS1.judgePM();
-	cout << endl;
+  cout << " : ";
+  DS1.judgePM();
+  cout << endl;
   // 중략...
 }
 ```  
