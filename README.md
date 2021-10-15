@@ -326,7 +326,7 @@ void MTQuickSort(int a[], int l, int r)
 ---
 
 # 🧐 [Binary Search Tree 구현 (#A5)](https://github.com/DCherish/DataStructure/tree/master/DataStructure_05)  
-- BST의 경우, insert 정상 작동 여부 및 preorder, inorder, postorder 방문 순서를 출력  
+- Binary Search Tree에 있어 node의 insert 정상 작동 여부 확인 및 방문 순서를 preorder, inorder, postorder로 출력  
 
 # ⌨️ Code (일부분)
 ```c++  
@@ -382,4 +382,12 @@ int main()
 
 # 💛 프로젝트 결과 (간략)
 <img src="/image/d6.png" width="450px" height="300px" alt="BlockDiagram"></img><br/>
-> Binary Search Tree 실행 결과 창
+> Binary Search Tree 실행 결과 창  
+
+---
+
+# ⚠️ License
+The theme is available as open source under the terms of the [MIT License](https://github.com/DCherish/DataStructure/blob/master/LICENSE).  
+###### *When you use this project, It would appreciate it if you could press the Star button*(⭐).
+
+---
