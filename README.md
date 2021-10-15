@@ -320,6 +320,7 @@ void MTQuickSort(int a[], int l, int r)
 <img src="/image/d4.png" width="650px" height="250px" alt="BlockDiagram"></img><br/>
 <img src="/image/d5.png" width="450px" height="390px" alt="BlockDiagram"></img><br/>
 > 세 가지의 정렬 알고리즘 성능 비교  
+
 👉 QuickSort < MergeSort << SelectionSort  
 
 ---
