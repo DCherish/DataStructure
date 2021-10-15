@@ -110,26 +110,26 @@ public:
 ```c++  
 int main()
 {
-  ArrayStack<string> A;
+	ArrayStack<string> A;
 
-  const int z1 = 6;
-  string zz1[z1] = { "A", "*", "B", "*", "C", "@" };
-  cout << "1) : ";
-  A.postfix(zz1, z1);
-  cout << endl << endl;
+	const int z1 = 6;
+	string zz1[z1] = { "A", "*", "B", "*", "C", "@" };
+	cout << "1) : ";
+	A.postfix(zz1, z1);
+	cout << endl << endl;
 
-  const int z2 = 18;
-  string zz2[z2] = { "(", "(", "A", "+", "(", "B", "*", "C", ")", ")", "-", "(", "D", "/", "E", ")", ")", "@" };
-  cout << "2) : ";
-  A.postfix(zz2, z2);
-  cout << endl << endl;
+	const int z2 = 18;
+	string zz2[z2] = { "(", "(", "A", "+", "(", "B", "*", "C", ")", ")", "-", "(", "D", "/", "E", ")", ")", "@" };
+	cout << "2) : ";
+	A.postfix(zz2, z2);
+	cout << endl << endl;
 
-  const int z3 = 9;
-  string zz3[z3] = { "-", "A", "+", "B", "-", "C", "+", "D" , "@" };
-  cout << "3) : ";
-  A.postfix(zz3, z3);
-  cout << endl << endl;
-  // 중략...
+	const int z3 = 9;
+	string zz3[z3] = { "-", "A", "+", "B", "-", "C", "+", "D" , "@" };
+	cout << "3) : ";
+	A.postfix(zz3, z3);
+	cout << endl << endl;
+	// 중략...
 }
 ```  
 > INtoPOST.cpp 일부분  
@@ -185,7 +185,7 @@ int main()
 	DLL.addBack(7); // 5 4 + 7 -> 5 4 7
 	DLL.addBack(9); // 5 4 7 + 9 -> 5 4 7 9
 	DLL.addFront(1); // 1 + 5 4 7 9 -> 1 5 4 7 9
-  // 중략...
+	// 중략...
 }
 ```  
 > DLinkedList.cpp 일부분  
@@ -210,20 +210,20 @@ private:
 // 중략...
 int main()
 {
-  char p1[14] = { '(',')','(','(',')',')','{','(','[','(',')',']',')','}' };
-  // 중략...
-  DLLStack DS1;
-  // 중략...
-  for (i = 0; i < 14; i++)
-  {
-    cout << p1[i] << " ";
-    DS1.push(p1[i]);
-  }
+	char p1[14] = { '(',')','(','(',')',')','{','(','[','(',')',']',')','}' };
+	// 중략...
+	DLLStack DS1;
+	// 중략...
+	for (i = 0; i < 14; i++)
+	{
+		cout << p1[i] << " ";
+		DS1.push(p1[i]);
+	}
 
-  cout << " : ";
-  DS1.judgePM();
-  cout << endl;
-  // 중략...
+	cout << " : ";
+	DS1.judgePM();
+	cout << endl;
+	// 중략...
 }
 ```  
 > P-MatchingDLL.cpp 일부분  
@@ -292,7 +292,7 @@ void MergeSort(int a[], int l, int r)
 ```c++  
 void MTQuickSort(int a[], int l, int r)
 {
-  {
+	{
 	// 중략...
 		v = a[r - 1];
 		i = l; // i = left index
@@ -357,7 +357,7 @@ int main()
 {
 	BST bst;
 	
-  // 중략...
+	// 중략...
 	bst.insert(10);
 	bst.showtree();
 
@@ -372,9 +372,8 @@ int main()
 	bst.remove(15);
 	bst.showtree();
 
-  bst.search(10);
-  
-  // 중략...
+	bst.search(10);
+	// 중략...
 }
 
 ```  
